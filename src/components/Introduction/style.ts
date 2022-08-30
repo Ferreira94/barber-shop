@@ -147,6 +147,10 @@ export const IntroductionContainer = styled.section`
     }
   }
 
+  @media ${(props) => props.theme.tablet} {
+    padding: 2rem;
+  }
+
   @media ${(props) => props.theme.mobileM} {
     padding: 0.5rem;
 
