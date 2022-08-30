@@ -4,7 +4,7 @@ export const IntroductionContainer = styled.section`
   max-width: 100vw;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url("/background.svg");
+  background-image: url("/background.png");
   padding: 2rem 3rem 0 3rem;
   display: flex;
   flex-direction: column;
