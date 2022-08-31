@@ -7,6 +7,10 @@ export const ArtistsContainer = styled.section`
   flex-direction: column;
   align-items: center;
 
+  @media ${(props) => props.theme.mobileM} {
+    padding: 0 1rem;
+  }
+
   h2 {
     text-transform: uppercase;
     font-size: 1.25rem;
@@ -108,6 +112,7 @@ export const ImageContainer = styled.div`
 
       :last-child {
         font-size: 0.625rem;
+        margin: 0 0 0.5rem;
 
         @media ${(props) => props.theme.mobileM} {
           font-size: 0.5rem;
