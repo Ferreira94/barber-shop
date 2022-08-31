@@ -60,6 +60,7 @@ export const AboutContainer = styled.section`
         width: 50%;
         margin: 0 auto;
         font-size: 1rem;
+        color: ${(props) => props.theme["gray-900"]};
       }
 
       @media ${(props) => props.theme.tabletS} {
