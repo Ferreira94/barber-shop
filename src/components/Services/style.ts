@@ -31,7 +31,7 @@ export const ServicesContainer = styled.section`
 
 export const ServicesContent = styled.div`
   padding: 0 6rem;
-  margin: 2rem 0;
+  margin: 2rem 0 3rem;
   max-width: 66.875rem;
   display: flex;
   flex-direction: column;
@@ -65,6 +65,7 @@ export const ItemContent = styled.div<IItemContentProps>`
       margin-left: 0.375rem;
       font-size: 1.5rem;
       color: ${(props) => props.theme.primary};
+      font-family: "Inconsolata";
     }
 
     p {
@@ -73,14 +74,13 @@ export const ItemContent = styled.div<IItemContentProps>`
 
     div {
       padding: 0.8rem 1rem;
-      border: 1px solid;
+      border: 1px solid ${(props) => props.theme["gray-600"]};
       border-radius: 50%;
       text-align: center;
 
       p {
         text-transform: uppercase;
         font-size: 0.625rem;
-        font-weight: 700;
       }
     }
   }

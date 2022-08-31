@@ -22,6 +22,7 @@ export const defaultTheme = {
 
   laptop: `(max-width: 1070px)`,
   tablet: `(max-width: 960px)`,
+  tabletS: `(max-width: 770px)`,
   mobileM: `(max-width: 570px)`,
   mobile: `(max-width: 370px)`,
 };
