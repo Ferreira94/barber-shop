@@ -1,4 +1,4 @@
-import { Introduction, Products, Services } from "../../components";
+import { About, Introduction, Products, Services } from "../../components";
 
 import { HomeContainer } from "./style";
 
@@ -10,6 +10,8 @@ export function Home() {
       <Services />
 
       <Products />
+
+      <About />
     </HomeContainer>
   );
 }
