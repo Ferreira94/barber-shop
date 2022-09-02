@@ -5,10 +5,9 @@ export function Artists() {
     <ArtistsContainer>
       <h2>Nossos Artistas</h2>
       <p>
-        Nossos profissionais são extremamente experientes
-        <br /> e se esforçam ao máximo para agradar os clientes, <br />
-        venha conhecer nossa equipe
-        <br /> e não irá se arrepender.
+        Nossos profissionais são extremamente experientes e se esforçam ao
+        máximo para agradar os clientes venha conhecer nossa equipe e não irá se
+        arrepender.
       </p>
       <strong>Conheça</strong>
 

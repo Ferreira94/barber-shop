@@ -74,6 +74,10 @@ export const CardContainer = styled.div`
       :hover {
         opacity: 0.7;
       }
+
+      @media ${(props) => props.theme.mobile} {
+        font-size: 1.5rem;
+      }
     }
   }
 

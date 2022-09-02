@@ -4,6 +4,7 @@ import {
   Introduction,
   Products,
   Services,
+  Values,
 } from "../../components";
 
 import { HomeContainer } from "./style";
@@ -20,6 +21,7 @@ export function Home() {
       <About />
 
       <Artists />
+      <Values />
     </HomeContainer>
   );
 }

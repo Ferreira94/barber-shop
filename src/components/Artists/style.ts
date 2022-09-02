@@ -19,6 +19,11 @@ export const ArtistsContainer = styled.section`
   p {
     margin-top: 0.5rem;
     text-align: center;
+    max-width: 25rem;
+
+    @media ${(props) => props.theme.mobileM} {
+      max-width: 100%;
+    }
   }
 
   strong {
