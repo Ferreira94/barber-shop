@@ -44,7 +44,15 @@ export function Values() {
           <div />
         </SkeletonCard>
         <CardContainer>
-          <h2>Cabelo e Barba</h2>
+          {isHair || isBeard || isEyebrow ? (
+            <h2>
+              {isHair && "Cabelo"}
+              {isBeard && " Barba"}
+              {isEyebrow && " Sobrancelha"}
+            </h2>
+          ) : (
+            <div />
+          )}
           <p>Escolha os serviços que você precisa e veja o valor</p>
           {value > 0 ? (
             <span>

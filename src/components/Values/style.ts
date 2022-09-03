@@ -13,7 +13,7 @@ export const ValuesContainer = styled.section`
 
   h2 {
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   p {
@@ -61,6 +61,7 @@ export const CardContainer = styled.section`
   }
 
   div {
+    height: 1.25rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -84,7 +85,7 @@ export const SkeletonCard = styled.section`
   border-radius: 1rem;
   padding: 4rem 2rem;
   gap: 2rem;
-  max-height: 23rem;
+  max-height: 22rem;
   z-index: 1;
 
   div {
