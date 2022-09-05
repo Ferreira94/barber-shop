@@ -6,3 +6,4 @@ export * from "./About";
 export * from "./Artists";
 export * from "./Values";
 export * from "./Contact";
+export * from "./Footer";

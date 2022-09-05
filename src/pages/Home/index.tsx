@@ -1,6 +1,7 @@
 import {
   About,
   Artists,
+  Footer,
   Introduction,
   Products,
   Services,
@@ -14,18 +15,13 @@ export function Home() {
   return (
     <HomeContainer>
       <Introduction />
-
       <Services />
-
       <Products />
-
       <About />
-
       <Artists />
-
       <Values />
-
       <Contact />
+      <Footer />
     </HomeContainer>
   );
 }

@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
 
     &::-webkit-scrollbar {
       width: 0.5rem;
+      background-color: ${(props) => props.theme.footer};
     }
     &::-webkit-scrollbar-thumb {
       background: ${(props) => props.theme.primary};
