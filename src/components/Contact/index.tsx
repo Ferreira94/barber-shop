@@ -27,7 +27,7 @@ export function Contact() {
             </div>
           </div>
           <div>
-            <strong>Telefone:</strong>
+            <strong>Telefone/WhatsApp:</strong>
             <div>
               <Phone />
               <p>53 98400-0000</p>

@@ -30,8 +30,8 @@ export function Values() {
     <ValuesContainer>
       <h2>Nossos Preços</h2>
       <p>
-        Além de excelentes serviços e um atendimento diferenciado, <br />
-        temos excelente preços
+        Além de excelentes serviços e um atendimento diferenciado, temos
+        excelente preços
       </p>
       <div>
         <SkeletonCard>

@@ -13,12 +13,13 @@ export const ValuesContainer = styled.section`
 
   h2 {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
   p {
     margin-top: 0.5rem;
     text-align: center;
+    max-width: 25rem;
   }
 
   > div {
