@@ -3,7 +3,7 @@ import { ServicesContainer, ServicesContent, ItemContent } from "./style";
 export function Services() {
   return (
     <ServicesContainer>
-      <img src="/range.svg" />
+      <img src="/range.svg" alt="" />
       <ServicesContent>
         <ItemContent>
           <div>

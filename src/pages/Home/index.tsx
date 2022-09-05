@@ -8,6 +8,7 @@ import {
 } from "../../components";
 
 import { HomeContainer } from "./style";
+import { Contact } from "../../components/Contact/index";
 
 export function Home() {
   return (
@@ -21,7 +22,10 @@ export function Home() {
       <About />
 
       <Artists />
+
       <Values />
+
+      <Contact />
     </HomeContainer>
   );
 }
