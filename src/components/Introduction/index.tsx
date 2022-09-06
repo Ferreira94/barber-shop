@@ -1,18 +1,32 @@
 import { IntroductionContainer } from "./style";
 
-export function Introduction() {
+interface IIntroductionProps {
+  onclick: () => void;
+}
+
+export function Introduction({ onclick }: IIntroductionProps) {
   return (
     <IntroductionContainer>
       <header>
         <img src="/logo.svg" alt="" />
         <div>
-          <h4>Ínicio</h4>
-          <h4>Serviços</h4>
-          <h4>Produtos</h4>
-          <h4>Profissionais</h4>
+          <a href="#services">
+            <h4>Serviços</h4>
+          </a>
+          <a href="#products">
+            <h4>Produtos</h4>
+          </a>
+          <a href="#artists">
+            <h4>Profissionais</h4>
+          </a>
+          <a href="#values">
+            <h4>Preços</h4>
+          </a>
         </div>
-        <h4>Contato</h4>
-        <strong>Menu</strong>
+        <a href="#contacts">
+          <h4>Contato</h4>
+        </a>
+        <strong onClick={onclick}>Menu</strong>
       </header>
       <section>
         <p>Desde 2015</p>

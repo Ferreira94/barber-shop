@@ -14,7 +14,7 @@ export function Products() {
   const [isActiveSlide, setIsActiveSlide] = useState(0);
 
   return (
-    <ProductsContainer>
+    <ProductsContainer id="products">
       <header>
         <h2>Nossos Produtos</h2>
         <strong>Veja Todos</strong>

@@ -18,9 +18,15 @@ export const IntroductionContainer = styled.section`
     margin-bottom: 10%;
     text-transform: uppercase;
 
+    a {
+      text-decoration: none;
+    }
+
     h4 {
       cursor: pointer;
       transition: opacity 0.2s;
+      color: ${(props) => props.theme.primary};
+      font-weight: 700;
 
       :hover {
         opacity: 0.7;
@@ -30,15 +36,11 @@ export const IntroductionContainer = styled.section`
     div {
       display: flex;
       gap: 3rem;
-      color: ${(props) => props.theme.white};
 
       h4 {
+        color: ${(props) => props.theme.white};
         font-weight: 300;
       }
-    }
-
-    > h4 {
-      color: ${(props) => props.theme.primary};
     }
 
     strong {

@@ -14,7 +14,7 @@ import {
 
 export function Contact() {
   return (
-    <ContactContainer>
+    <ContactContainer id="contacts">
       <img src="/razorContact.svg" alt="" />
       <ContactContent>
         <img src="/contactImage.svg" alt="" />

@@ -27,7 +27,7 @@ export function Values() {
   }, [isHair, isBeard, isEyebrow]);
 
   return (
-    <ValuesContainer>
+    <ValuesContainer id="values">
       <h2>Nossos Preços</h2>
       <p>
         Além de excelentes serviços e um atendimento diferenciado, temos

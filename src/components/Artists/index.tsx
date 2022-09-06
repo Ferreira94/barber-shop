@@ -2,7 +2,7 @@ import { ArtistsContainer, ImagesContainer, ImageContainer } from "./style";
 
 export function Artists() {
   return (
-    <ArtistsContainer>
+    <ArtistsContainer id="artists">
       <h2>Nossos Artistas</h2>
       <p>
         Nossos profissionais são extremamente experientes e se esforçam ao

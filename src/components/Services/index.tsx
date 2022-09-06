@@ -2,7 +2,7 @@ import { ServicesContainer, ServicesContent, ItemContent } from "./style";
 
 export function Services() {
   return (
-    <ServicesContainer>
+    <ServicesContainer id="services">
       <img src="/range.svg" alt="" />
       <ServicesContent>
         <ItemContent>
